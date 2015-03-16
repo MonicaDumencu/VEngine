@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\TerrainGenerationFiles">
+      <UniqueIdentifier>{542d7111-a908-47c3-a552-31fd090bdfa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{10b30884-a5ae-4f2c-9e99-01396cc7a3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GamePlayFiles">
+      <UniqueIdentifier>{c74b1147-7d35-4965-93a7-d3ac6acc0ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PhysicsFiles">
+      <UniqueIdentifier>{3f380eba-9292-44b5-b6d1-bcde35e081d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NoiseFiles">
+      <UniqueIdentifier>{a3d46275-88af-4df1-8f92-388e7e2d4d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{bdd2389e-5c73-4299-9d06-b7fd774c79dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GamePlayFiles">
+      <UniqueIdentifier>{d5690548-c8d0-4fa2-82fb-09560bae872c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TerrainGenerationFiles">
+      <UniqueIdentifier>{1a595021-9e81-4334-9d0c-7740ca43e87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NoiseFiles">
+      <UniqueIdentifier>{b4715d56-11ce-49c6-add4-bd0b27d70a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhysicsFiles">
+      <UniqueIdentifier>{d6be9ea8-0bd8-432a-a83c-4195cb70465b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClass.cpp">
+      <Filter>Source Files\GamePlayFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity.cpp">
+      <Filter>Source Files\GamePlayFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Source Files\GamePlayFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClass.cpp">
+      <Filter>Source Files\GamePlayFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunckManager.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PuddleChunck.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereChunck.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainClass.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelChunck.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelCube.cpp">
+      <Filter>Source Files\TerrainGenerationFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="noiseutils.cpp">
+      <Filter>Source Files\NoiseFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsNode.cpp">
+      <Filter>Source Files\PhysicsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Source Files\PhysicsFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChunckManager.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PuddleChunck.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereChunck.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainClass.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelChunck.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelCube.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Header Files\TerrainGenerationFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClass.h">
+      <Filter>Header Files\GamePlayFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity.h">
+      <Filter>Header Files\GamePlayFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>Header Files\GamePlayFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCLass.h">
+      <Filter>Header Files\GamePlayFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsNode.h">
+      <Filter>Header Files\PhysicsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files\PhysicsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="noiseutils.h">
+      <Filter>Header Files\NoiseFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shaders\processFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Shaders\processVertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Shaders\debugFragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\Shaders\debugVertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
